@@ -45,6 +45,40 @@
         "videos",
         "audios"
       ]
+    },
+    "imagemNoomi": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleNoomi": {
+      "type": "string"
+    },
+    "subtitleNoomi": {
+      "type": "string"
+    },
+    "subtitlecolorNoomi": {
+      "type": "string"
+    },
+    "descriptionNoomi": {
+      "type": "string"
+    },
+    "imagemFundoNoomi": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
