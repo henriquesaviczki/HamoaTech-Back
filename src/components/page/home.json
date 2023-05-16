@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_homes",
+  "info": {
+    "displayName": "home"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "textcolor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imagemfundo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imagemapp": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
