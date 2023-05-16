@@ -1,7 +1,8 @@
 {
   "collectionName": "components_page_homes",
   "info": {
-    "displayName": "home"
+    "displayName": "home",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,24 +19,26 @@
       "type": "string"
     },
     "imagemfundo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "imagemapp": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
