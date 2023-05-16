@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_conjunto_tipos",
+  "info": {
+    "displayName": "tipo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descriptionimage": {
+      "type": "string"
+    },
+    "empreendimento": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
